@@ -1,0 +1,24 @@
+/* Calculation: 16px * (62.5 / 100) = 10px */
+/* one rem is equall to the 10px */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3e4f9;
+
+}
+html{
+    font-size: 62.5%;
+}
+#login{
+    width:30rem;     /*this is 300px one rem according to the size is 10px and 300/10 the calculate the rem units*/
+    height: 50rem;
+    background-color: whitesmoke;
+}
+.userInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
